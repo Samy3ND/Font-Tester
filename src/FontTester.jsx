@@ -35,7 +35,7 @@ const FontTester = ({ onClose }) => {
     italic: false,
   });
   const [isLoading, setIsLoading] = useState(false);
-  const [content, setContent] = useState("This is the font first upload font. Then you can apply changes. Developed by @Samy3ND");
+  const [content, setContent] = useState("This is the Font Tester. First upload your font. Then you can apply changes. Developed by @Samy3ND");
   
   const previewRef = useRef(null);
   const fileInputRef = useRef(null);
